@@ -1,4 +1,4 @@
-.home-main{
+.home{
     display: flex;
     width: 95%;
     max-width: 900px;
@@ -14,7 +14,7 @@
     width: 270px;
 }
 
-.home-main h1{
+.home h1{
     font-size: 3.1em;
     font-weight: bold;
     margin: 0;
@@ -31,7 +31,7 @@
     margin-right: 16px;
 }
 
-.home-main h2{
+.home h2{
     color: #D9A61A;
     margin: 0;
     font-family: 'freestyle', sans-serif;
@@ -39,11 +39,11 @@
     margin-bottom: 20px;
 }
 
-.home-main p{
+.home p{
     margin-bottom: 50px;
 }
 
-.home-main .hire-button{
+.home .hire-button{
     background-color: #D9A61A;
     color: white;
     border: 0;
@@ -61,11 +61,11 @@
     transition-duration: 0.2s;
 }
 
-.home-main .hire-button:hover{
+.home .hire-button:hover{
     background-color: #e4b32c;
     bottom: 2px;
 }
 
-.home-main .hire-button img{
+.home .hire-button img{
     width: 20px;
 }

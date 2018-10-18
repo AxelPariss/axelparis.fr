@@ -51,3 +51,12 @@ p{
     color: #97A0B0;
     line-height: 1.8;
 }
+
+.route-wrapper {
+  position: relative;
+}
+
+.route-wrapper > div {
+  position: absolute;
+  width: 100%;
+}

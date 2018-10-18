@@ -1,0 +1,12 @@
+.projects{
+    display: flex;
+    width: 95%;
+    max-width: 900px;
+    margin: 100px auto;
+}
+
+.projects h1{
+    font-size: 3.1em;
+    font-weight: bold;
+    margin: 0;
+}
