@@ -48,16 +48,24 @@
     color: white;
     border: 0;
     border-radius: 5px;
-    padding: 18px 52px;
+    padding: 0 40px;
+    width: 240px;
+    height: 56px;
+    justify-content: space-between;
     font-size: 1em;
     cursor: pointer;
     position: relative;
     bottom: 0;
     outline: none;
+    display: flex;
     transition-duration: 0.2s;
 }
 
 .home-main .hire-button:hover{
     background-color: #e4b32c;
     bottom: 2px;
+}
+
+.home-main .hire-button img{
+    width: 20px;
 }
