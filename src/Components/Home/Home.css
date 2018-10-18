@@ -1,19 +1,63 @@
-body{
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#283240+0,1c1e25+100 */
-    background: #283240; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover, #283240 0%, #1c1e25 100%); /* FF3.6-15 */
-    background: -webkit-radial-gradient(center, ellipse cover, #283240 0%,#1c1e25 100%); /* Chrome10-25,Safari5.1-6 */
-    background: radial-gradient(ellipse at center, #283240 0%,#1c1e25 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#283240', endColorstr='#1c1e25',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-    min-height: 100vh;
+.home-main{
+    display: flex;
+    width: 95%;
+    max-width: 900px;
+    margin: 100px auto;
 }
 
-body, html{
-    margin: 0;
-    padding: 0;
+
+.profile-image{
+    margin-right: 100px;
 }
 
-p{
+.profile-image img{
+    width: 270px;
+}
+
+.home-main h1{
+    font-size: 3.1em;
+    font-weight: bold;
     margin: 0;
+}
+
+.horizontal-bar{
+    display: inline-block;
+    background-color: #D9A61A;
+    height: 2px;
+    border-radius: 5px;
+    width: 60px;
+    position: relative;
+    bottom: 9px; 
+    margin-right: 16px;
+}
+
+.home-main h2{
+    color: #D9A61A;
+    margin: 0;
+    font-family: 'freestyle', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.home-main p{
+    margin-bottom: 50px;
+}
+
+.home-main .hire-button{
+    background-color: #D9A61A;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px 52px;
+    font-size: 1em;
+    cursor: pointer;
+    position: relative;
+    bottom: 0;
+    outline: none;
+    transition-duration: 0.2s;
+}
+
+.home-main .hire-button:hover{
+    background-color: #e4b32c;
+    bottom: 2px;
 }

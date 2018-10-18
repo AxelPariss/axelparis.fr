@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'circular';
+    src: url('./Fonts/CircularStd-Book.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular';
+    src: url('./Fonts/CircularStd-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'freestyle';
+    src: url('./Fonts/Freestyle-Script.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+body{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#283240+0,1c1e25+100 */
+    background: #283240; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #283240 0%, #1c1e25 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #283240 0%,#1c1e25 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #283240 0%,#1c1e25 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#283240', endColorstr='#1c1e25',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    min-height: 100vh;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow: hidden;
+}
+
+body, button, input{
+    font-family: 'circular', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
+p{
+    margin: 0;
+    color: #97A0B0;
+    line-height: 1.8;
+}
