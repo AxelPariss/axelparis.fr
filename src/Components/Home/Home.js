@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Home.css'
 import Menu from './../Menu/Menu'
+import Footer from './../Footer/Footer'
 import profileImage from './img/axel-paris.png'
 import leftArrowImage from './img/left-arrow.svg'
 
@@ -20,6 +21,7 @@ class Home extends Component {
             <button className="hire-button">Me recruter<img src={leftArrowImage} alt="Fleche droite"/></button>
           </div>
         </div>
+        <Footer />
       </div>
     )
   }

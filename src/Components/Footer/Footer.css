@@ -1,0 +1,16 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.footer img{
+    height: 13px;
+    padding: 20px;
+    transition-duration: 0.2s;
+}
+
+.footer img:hover{
+    transform: scale(1.15);
+}
